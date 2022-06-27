@@ -39,10 +39,10 @@ else
 	echo "---------------------------------------------------------"
 	echo
 	read -p "Introduce el enlace a la máquina: " enlace
-	
+
 	mensaje="Nueva máquina de VulnHub añadida"
 	echo "El mensaje del commit será: $mensaje"
-        echo "$maquina <a href='https://github.com/TheZombrex/machines/blob/main/docs/$documentacion'>Documentación</a> <a href='$enlace'>Máquina</a>" >> VulnHubMachines.md
+        echo "$maquina <a href='https://github.com/TheZombrex/machines/blob/main/docs/$documentacion'>    ![Imagen Doc](https://github.com/TheZombrex/machines/tree/main/icons/octicons/Wiki.svg) Documentación</a> <a href='$enlace'>![Imagen Doc](https://github.com/TheZombrex/machines/tree/main/icons/octicons/Wiki.svg)   Máquina</a>" >> VulnHubMachines.md
         cat HTBMachines.md > README.md
 	echo "" >> README.md
         cat VulnHubMachines.md >> README.md
