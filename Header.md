@@ -1,5 +1,5 @@
 # Máquinas Terminadas
 
 ![](https://github.com/TheZombrex/machines/blob/main/icons/htbandvulnhub_logos.png)
-[========]
-<a href="https://github.com/Pedro-Murilo/icons-for-readme">Icons by Pedro Murilo</a>
+<p></p>
+<a href="https://github.com/Readme-Workflows/Readme-Icons">Icons by Readme-Workflows</a>

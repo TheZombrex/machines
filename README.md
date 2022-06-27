@@ -2,7 +2,7 @@
 
 ![](https://github.com/TheZombrex/machines/blob/main/icons/htbandvulnhub_logos.png)
 <p></p>
-<a href="https://github.com/Pedro-Murilo/icons-for-readme">Icons by Pedro Murilo</a>
+<a href="https://github.com/Readme-Workflows/Readme-Icons">Icons by Readme-Workflows</a>
 
 ## HackTheBox Machines
 - Meow   ![   ](https://github.com/TheZombrex/machines/blob/main/icons/octicons/Wiki.svg) <a href='https://github.com/TheZombrex/machines/blob/main/docs/htb/Meow.pdf'>Documentación</a>
