@@ -11,7 +11,8 @@ echo "| 1. HackTheBox |"
 echo "| 2. VulnHub    |"
 echo "-----------------"
 echo
-read -p "Añade un commit al archivo: " opcion_commit
+read -p "Escoge una opción: " opcion_commit
+
 if [ $opcion_commit -eq 1  ]
 then
 	mensaje="Nueva máquina de HackTheBox añadida"
