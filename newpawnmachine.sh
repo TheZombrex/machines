@@ -42,9 +42,14 @@ else
 
 	mensaje="Nueva máquina de VulnHub añadida"
 	echo "El mensaje del commit será: $mensaje"
-        echo "$maquina <p>   </p> ![   ](https://github.com/TheZombrex/machines/blob/main/icons/octicons/Wiki.svg) <a href='https://github.com/TheZombrex/machines/blob/main/docs/$documentacion'>Documentación</a> ![   ](https://github.com/TheZombrex/machines/blob/main/icons/octicons/link.png) <a href='$enlace'>Máquina</a>" >> VulnHubMachines.md
-        cat HTBMachines.md > README.md
-	echo "" >> README.md
+        echo "<td class="tg-0pky" rowspan="3">$maquina</td>" >> VulnHubMachines.md
+				echo "<td class="tg-0pky" rowspan="3">![   ](https://github.com/TheZombrex/machines/blob/main/icons/octicons/Wiki.svg) <a href='https://github.com/TheZombrex/machines/blob/main/docs/$documentacion'>Documentación</a></td>" >> VulnHubMachines.md
+				echo "<td class="tg-0pky" colspan="3">![   ](https://github.com/TheZombrex/machines/blob/main/icons/octicons/link.png) <a href='$enlace'>Máquina</a></td>" >> VulnHubMachines.md
+				echo "</tr>" >> VulnHubMachines.md
+				echo "</tbody>" >> VulnHubMachines.md
+				echo "</table>" >> VulnHubMachines.md
+				cat HTBMachines.md > README.md
+				echo "" >> README.md
         cat VulnHubMachines.md >> README.md
 
 fi
