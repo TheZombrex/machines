@@ -26,7 +26,7 @@ if [ $opcion_commit -eq 1  ]
 then
 	mensaje="Nueva máquina de HackTheBox añadida"
 	echo "El mensaje del commit será: $mensaje"
-	echo "$maquina <a href='https://github.com/TheZombrex/machines/blob/main/docs/$documentacion'>Documentación</a>" >> HTBMachines.md
+	echo "$maquina <a href='https://github.com/TheZombrex/machines/blob/main/docs/$documentacion'>    ![Imagen Doc](https://github.com/TheZombrex/machines/tree/main/icons/octicons/link.svg) Documentación</a> Documentación</a>" >> HTBMachines.md
 	cat HTBMachines.md > README.md
 	echo "" >> README.md
 	cat VulnHubMachines.md >> README.md
@@ -42,7 +42,7 @@ else
 
 	mensaje="Nueva máquina de VulnHub añadida"
 	echo "El mensaje del commit será: $mensaje"
-        echo "$maquina <a href='https://github.com/TheZombrex/machines/blob/main/docs/$documentacion'>    ![Imagen Doc](https://github.com/TheZombrex/machines/tree/main/icons/octicons/Wiki.svg) Documentación</a> <a href='$enlace'>![Imagen Doc](https://github.com/TheZombrex/machines/tree/main/icons/octicons/Wiki.svg)   Máquina</a>" >> VulnHubMachines.md
+        echo "$maquina <a href='https://github.com/TheZombrex/machines/blob/main/docs/$documentacion'>    ![Imagen Doc](https://github.com/TheZombrex/machines/tree/main/icons/octicons/link.svg) Documentación</a> <a href='$enlace'>![Imagen Doc](https://github.com/TheZombrex/machines/tree/main/icons/octicons/Wiki.svg)   Máquina</a>" >> VulnHubMachines.md
         cat HTBMachines.md > README.md
 	echo "" >> README.md
         cat VulnHubMachines.md >> README.md
