@@ -19,3 +19,9 @@ VulnHub Machines
 </tr>
 </tbody>
 </table>
+<td class=tg-0pky rowspan=3>- VULNHUB-HOGWARTS-DOBBY</td>
+<td class=tg-0pky rowspan=3>![   ](https://github.com/TheZombrex/machines/blob/main/icons/octicons/Wiki.svg) <a href='https://github.com/TheZombrex/machines/blob/main/docs/Dobby.pdf'>Documentación</a></td>
+<td class=tg-0pky colspan=3>![   ](https://github.com/TheZombrex/machines/blob/main/icons/octicons/link.png) <a href='https://www.vulnhub.com/entry/hogwarts-dobby,597/'>Máquina</a></td>
+</tr>
+</tbody>
+</table>
