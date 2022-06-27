@@ -18,15 +18,15 @@ then
 	mensaje="Nueva máquina de HackTheBox añadida"
 	echo "El mensaje del commit será: $mensaje"
 	echo "$maquina" >> HTBMachines.md
-	echo HTBMachines >> README.md
-	echo VulnHubMachines.md >> README.md
+	cat HTBMachines.md >> README.md
+	cat VulnHubMachines.md >> README.md
 
 else
 	mensaje="Nueva máquina de VulnHub añadida"
 	echo "El mensaje del commit será: $mensaje"
         echo "$maquina" >> VulnHubMachines.md
-        echo HTBMachines >> README.md
-        echo VulnHubMachines.md >> README.md
+        cat HTBMachines.md >> README.md
+        cat VulnHubMachines.md >> README.md
 
 fi
  
