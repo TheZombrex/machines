@@ -19,6 +19,7 @@ then
 	echo "El mensaje del commit será: $mensaje"
 	echo "$maquina" >> HTBMachines.md
 	cat HTBMachines.md > README.md
+	echo "" >> README.md
 	cat VulnHubMachines.md >> README.md
 
 else
@@ -26,6 +27,7 @@ else
 	echo "El mensaje del commit será: $mensaje"
         echo "$maquina" >> VulnHubMachines.md
         cat HTBMachines.md > README.md
+	echo "" >> README.md
         cat VulnHubMachines.md >> README.md
 
 fi
