@@ -53,4 +53,4 @@ git add -A
 
 git commit -m "$mensaje"
 
-git push
+git push -f
