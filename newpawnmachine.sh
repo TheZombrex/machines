@@ -1,6 +1,6 @@
 read -p "Introduce mombre de la maquina e informacion: " maquina
 
-maquina= "- $maquina"
+maquina="- $maquina"
 
 echo "La maquina añadida será: $maquina"
 
