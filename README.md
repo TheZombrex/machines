@@ -1,10 +1,3 @@
-# machines
-Pawned Machines
-
-***
-
-HTBMachines
-VulnHubMachines.md
 HackTheBox machines 
 
 - HTB-STARTING-POINT-MEOW
@@ -15,5 +8,4 @@ HackTheBox machines
 VulnHub Machines
 
 
-- VULNHUB-BREAKOUT
 - VULNHUB-BREAKOUT
