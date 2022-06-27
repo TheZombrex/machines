@@ -3,3 +3,5 @@ Pawned Machines
 
 ***
 
+HTBMachines
+VulnHubMachines.md
