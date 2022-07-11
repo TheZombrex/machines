@@ -41,10 +41,20 @@ else
 	echo "---------------------------------------------------------"
 	echo
 	read -p "Introduce el enlace a la máquina: " enlace
+	
+	echo "Introduce el nivel de dificultad de la máquina"
+        echo
+        echo "-----------------------------------------------------------"
+        echo " Tipos: easy, medium, hard, insane"
+        echo "---------------------------------------------------------"
+        echo
+        read -p "Introduce el mivel de dificultad de la máquina: " nivel
+
+	
 
 	mensaje="Nueva máquina de VulnHub añadida"
 	echo "El mensaje del commit será: $mensaje"
-  echo "$maquina   ![   ](https://github.com/TheZombrex/machines/blob/main/icons/octicons/Wiki.svg) <a href='https://github.com/TheZombrex/machines/blob/main/docs/vulnhub/$documentacion'>Documentación</a>  ![   ](https://github.com/TheZombrex/machines/blob/main/icons/octicons/link.png) <a href='$enlace'>Máquina</a>" >> VulnHubMachines.md
+  echo "$maquina   ![   ](https://github.com/TheZombrex/machines/blob/main/icons/octicons/Wiki.svg) <a href='https://github.com/TheZombrex/machines/blob/main/docs/vulnhub/$documentacion'>Documentación</a>  ![   ](https://github.com/TheZombrex/machines/blob/main/icons/octicons/link.png) <a href='$enlace'>Máquina</a> ![   ](https://github.com/TheZombrex/machines/blob/main/icons/levels/$nivel.png)" >> VulnHubMachines.md
 	cat Header.md > README.md
 	echo "" >> README.md
 	cat HTBMachines.md >> README.md
