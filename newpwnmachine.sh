@@ -32,6 +32,7 @@ then
 	cat HTBMachines.md >> README.md
 	echo "" >> README.md
 	cat VulnHubMachines.md >> README.md
+	cat Footer.md >> README.md
 
 else
 	echo "Introduce el enlace a la máquina"
@@ -41,7 +42,7 @@ else
 	echo "---------------------------------------------------------"
 	echo
 	read -p "Introduce el enlace a la máquina: " enlace
-	
+
 	echo "Introduce el nivel de dificultad de la máquina"
         echo
         echo "-----------------------------------------------------------"
@@ -50,7 +51,7 @@ else
         echo
         read -p "Introduce el mivel de dificultad de la máquina: " nivel
 
-	
+
 
 	mensaje="Nueva máquina de VulnHub añadida"
 	echo "El mensaje del commit será: $mensaje"
@@ -60,6 +61,7 @@ else
 	cat HTBMachines.md >> README.md
 	echo "" >> README.md
   cat VulnHubMachines.md >> README.md
+	cat Footer.md >> README.md
 
 fi
 
