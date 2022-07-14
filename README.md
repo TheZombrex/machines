@@ -4,7 +4,7 @@
 <p></p>
 <a href="https://github.com/Readme-Workflows/Readme-Icons">Icons by Readme-Workflows</a>
 
-## HackTheBox Machines
+![   ](https://github.com/TheZombrex/machines/blob/main/icons/htb_icon.png) ## HackTheBox Machines
 
 ### Starting Point
 - Meow   ![   ](https://github.com/TheZombrex/machines/blob/main/icons/octicons/Wiki.svg) <a href='https://github.com/TheZombrex/machines/blob/main/docs/htb/Meow.pdf'>Documentación</a>
