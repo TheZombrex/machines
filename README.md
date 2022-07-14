@@ -4,6 +4,7 @@
 <p></p>
 <a href="https://github.com/Readme-Workflows/Readme-Icons">Icons by Readme-Workflows</a>
 
+![   ](https://github.com/TheZombrex/machines/blob/main/icons/htb_icon.png)
 ## HackTheBox Machines
 
 ### Starting Point
